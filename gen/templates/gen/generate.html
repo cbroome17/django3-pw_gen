@@ -1,0 +1,15 @@
+{% extends "gen/home.html" %}
+
+{% block content %}
+
+<div class="bg-light p-5 rounded-lg m-3">
+    <h1>Here is the password you requested:</h1>
+    <div class="container text-center" style="width: 400px;">
+
+        <span>
+            <h2 class="border border-primary border-5">{{password}}</h2>
+        </span>
+
+    </div>
+</div>
+{% endblock content %}
