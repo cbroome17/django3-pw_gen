@@ -25,7 +25,6 @@
         </div>
     </nav>
     {% block content %}
-    <h1>Home</h1>
     <div class="form-control">
         <form action="{% url 'generate' %}">
             <select class="form-select form-select-lg mb-3" name="length" style="width: 40%">
@@ -51,7 +50,7 @@
                 <br>
             </div>
             <br>
-            <input type="submit" class="btn btn-primary" value="Gen password">
+            <input type="submit" class="btn btn-primary" value="Generate Password">
         </form>
     </div>
     {% endblock content %}
